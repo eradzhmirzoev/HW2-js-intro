@@ -9,12 +9,16 @@ console.log( 10 / 2 );
 //2
 console.log('пункт №6');
 
-console.log(1, 2, 3, 4, 5);
+for (let i = 1; i <= 5; i++) {
+    console.log(i);
+}
 
 //3
 console.log('пункт №7');
 
-console.log(5, 4, 3, 2, 1);
+for (let i = 5; i > 0; i--) {
+    console.log(i);
+}
 
 //4
 console.log('пункт №8');
@@ -79,13 +83,13 @@ console.log('пункт №10');
 
 let arr = ['a', 'b', 'c'];
 
-// for(let i = 1; i < 4; i++) {
-//     arr.push(i);
-// }
+for(let i = 1; i < 4; i++) {
+    arr.push(i);
+}
 
-arr[3] = 1;
-arr[4] = 2;
-arr[5] = 3;
+// arr[3] = 1;
+// arr[4] = 2;
+// arr[5] = 3;
 
 console.log(arr);
 
